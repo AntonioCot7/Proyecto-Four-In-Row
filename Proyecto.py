@@ -220,8 +220,8 @@ def gameplay(board,player_1,player_2, ficha_player1, ficha_player2):
 
 def Inicio(board):
     global player_1,player_2
-    print(Fore.YELLOW + 'Bienvenidos a Four In Row del Grupo The Warriors of Utec')
-    print(Fore.YELLOW + '*'*25 + ' Menu ' + '*'*25)
+    print(Fore.YELLOW + 'Bienvenidos a Four In Row')
+    print(Fore.YELLOW + '*'*10 + ' Menu ' + '*'*10)
     print(Fore.CYAN + '1: Nuevo Juego')
     print(Fore.GREEN + '2: Carga Juego')
     print(Fore.RED + '3: Salir' + Fore.RESET)
